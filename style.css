@@ -1,29 +1,29 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #3d3d3d;
 }
 
-/* hero background image */
+/* landing background image */
 .bgimage {
-    height:100vh;
-    background: url('images/heroImage.jpeg');
-    background-size:cover;
-    position:relative;
+    height: 100vh; /* 100% of viewport height */
+    background: url('images/landing.jpg');
+    background-size: cover; /* make sure the image always covers the entire container, even if it has to stretch the image or cut a little bit off one of the edge */
+    position: relative;
 }
 /* text css above hero image*/
-.hero_title {
+.landing-title {
     font-size: 4.5rem;
 }
-.hero_desc {
+.landing-desc {
     font-size: 2rem;
 }
-.hero-text {
+.landing-text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #3d3d3d;
 }
 
 /* spacing on all sections */
@@ -31,6 +31,7 @@
     margin-top: 4rem;
     padding-top: 4rem;
 } */
+
 #contact {
     padding-bottom: 4rem;
 }
@@ -39,24 +40,12 @@
     width: 100%;
 }
 
-/* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+.card {
+    min-height: 700px;
 }
+
 .card-title {
     text-align: center;
-}
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.servicesText:hover {
-    border: 1px solid #008000;
 }
 
 /* social media icons styling */
@@ -65,7 +54,7 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: #3d5d9e85;
 }
 .fab {
     color: #000000;

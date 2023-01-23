@@ -10,7 +10,8 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
-// collapse navbar after click on small devices
+
+// collapse navbar after clicking on small devices, where the toggle menu is used
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarSupportedContent')
 
